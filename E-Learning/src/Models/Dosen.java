@@ -15,13 +15,12 @@ public class Dosen extends Orang implements Serializable{
 
     private Kelas kls;
     private String nip;
-    private String kodedosen;
-    private int umur;
+    private String kodeDosen;
     private ArrayList<Kelas>  daftarKelas = new ArrayList<>();
 
-    public Dosen(String nama, String nip, String kodeDosen, String noTelp, String alamat, String tanggalLahir, String username, String password) {
-        super(nama, noTelp, alamat, tanggalLahir, username, password);
-        this.kodedosen = kodedosen;
+    public Dosen(String nama, String nip, String kodeDosen, int umur, String alamat, String username, String password) {
+        super(nama, umur, alamat, username, password);
+        this.kodeDosen = kodeDosen;
         this.nip = nip;
     }
     public void createKelas(String nama) {
@@ -36,8 +35,8 @@ public class Dosen extends Orang implements Serializable{
     public void setNip(String nip) {
         this.nip = nip;
     }
-    public void setKodedosen(String kodedosen) {
-        this.kodedosen = kodedosen;
+    public void setKodeDosen(String kodedosen) {
+        this.kodeDosen = kodeDosen;
     }
     public Kelas getKelasByIndex(int i) {
         return daftarKelas.get(i);
