@@ -16,7 +16,6 @@ public class Dosen extends Orang implements Serializable{
     private Kelas kls;
     private String nip;
     private String kodeDosen;
-    private int umur;
     private ArrayList<Kelas>  daftarKelas = new ArrayList<>();
 
     public Dosen(String nama, String nip, String kodeDosen, int umur, String alamat, String username, String password) {
