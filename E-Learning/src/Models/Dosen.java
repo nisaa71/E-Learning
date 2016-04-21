@@ -42,8 +42,8 @@ public class Dosen extends Orang implements Serializable{
         this.kls = kls;
     }
 
-    public ArrayList<Kelas> getDaftarKelas() {
-        return daftarKelas;
+    public int getDaftarKelas() {
+        return daftarKelas.size();
     }
 
     public void setDaftarKelas(ArrayList<Kelas> daftarKelas) {
