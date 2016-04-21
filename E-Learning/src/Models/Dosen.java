@@ -23,6 +23,7 @@ public class Dosen extends Orang implements Serializable{
         this.kodeDosen = kodeDosen;
         this.nip = nip;
     }
+    
     public void createKelas(String nama) {
         
         if(daftarKelas.size() < 3) daftarKelas.add(kls);
@@ -32,12 +33,23 @@ public class Dosen extends Orang implements Serializable{
     public Kelas getKelas(int i){
         return daftarKelas.get(i);
     }
+
+    public String getNip() {
+        return nip;
+    }
+
     public void setNip(String nip) {
         this.nip = nip;
     }
-    public void setKodeDosen(String kodedosen) {
+
+    public String getKodeDosen() {
+        return kodeDosen;
+    }
+
+    public void setKodeDosen(String kodeDosen) {
         this.kodeDosen = kodeDosen;
     }
+    
     public Kelas getKelasByIndex(int i) {
         return daftarKelas.get(i);
     }
