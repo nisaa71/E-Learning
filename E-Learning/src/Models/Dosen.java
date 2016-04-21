@@ -34,6 +34,22 @@ public class Dosen extends Orang implements Serializable{
         return daftarKelas.get(i);
     }
 
+    public Kelas getKls() {
+        return kls;
+    }
+
+    public void setKls(Kelas kls) {
+        this.kls = kls;
+    }
+
+    public ArrayList<Kelas> getDaftarKelas() {
+        return daftarKelas;
+    }
+
+    public void setDaftarKelas(ArrayList<Kelas> daftarKelas) {
+        this.daftarKelas = daftarKelas;
+    }
+
     public String getNip() {
         return nip;
     }
