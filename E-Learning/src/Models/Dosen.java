@@ -54,6 +54,15 @@ public class Dosen extends Orang implements Serializable{
         return daftarKelas.get(i);
     }
     
+    public Kelas getKelasByNama(String nama){
+        for(int i=0; i<daftarKelas.size(); i++){
+            if(daftarKelas.get(i).getKelas().equals(nama)){
+                return daftarKelas.get(i);
+            }
+        }
+        return null;
+    }
+    
     public void removeKelas(int index) { //method untuk menghapus data di ArrayList berdasarkan index Arraynya
         if((index >= 0) && (index <daftarKelas.size())){
         daftarKelas.remove(index);
