@@ -183,6 +183,7 @@ public class Aplikasi {
         return null;
     }
 
+    //MENU DOSEN
     public void menuDosen() {
         String pil = null;
         do {
@@ -234,9 +235,18 @@ public class Aplikasi {
                     }
                     break;
                 case "4":
+                    System.out.println("Input Kelas : ");
+                    Scanner sc = new Scanner(System.in);
+                    int pilihan = sc.nextInt();
                     System.out.println("Create Tugas");
-                    String inputTugas = s.next();
-                    daftarDosen.get(loggedin).createTugas(inputTugas);
+                    System.out.println("Nama Tugas : ");
+                    String inputTugas = sc.next();
+                    System.out.println("Deadline : ");
+                    String dl = sc.next();
+                    System.out.println("Nama Mata Kuliah : ");
+                    String namaMK = sc.next();
+                    Tugas t = new Tugas(inputTugas, dl, namaMK);
+                    daftarDosen.get(loggedin).getKelas(pilihan).createTugas(t);
                     updateFileDosen();
                     break;
                 case "5":
@@ -258,6 +268,7 @@ public class Aplikasi {
         } while (!pil.equals("6"));
     }
 
+    //MENU MAHASISWA
     public void menuMahasiswa() {
         String pil = null;
         do {
@@ -270,23 +281,26 @@ public class Aplikasi {
                 case "1":
                     System.out.println("Daftar Kelas : ");
                     for (int i = 0; i < daftarDosen.get(loggedin).getDaftarKelas(); i++) {
-                        System.out.println(daftarDosen.get(loggedin).getKelasByIndex(i));
-                        ArrayList<Kelas> kls = daftarDosen.get(loggedin).getKelasByIndex(i).getMahasiswa();
-                        if (kls.size() > 0) {
-                            for (Kelas k : kls) {
-                                System.out.println(k);
-                            }
-                        } else {
-                            System.out.println("Belum ada mahasiswa");
-                        }
+                        System.out.println(daftarDosen.get(loggedin).getKelasByIndex(i).getKelas());
                     }
                     updateFileMahasiswa();
                     break;
-
                 case "2":
-                    System.out.println("Join Kelas : ");
-                    String Kelas = s.next();
-                    daftarMahasiswa.get(loggedin).getDaftarKelas().setKelas(Kelas);
+                    System.out.println("Registrasi Kelas");
+                    for(int i=0; i<daftarDosen.size(); i++) {
+                        System.out.println("Daftar Dosen");
+                        System.out.println((i+1)+". "+daftarDosen.get(i).getNama());
+                        for(int j=0; j<daftarDosen.get(i).getDaftarKelas(); j++) {
+                            System.out.println("Daftar Kelas");
+                            System.out.println((j+1)+". "+daftarDosen.get(i).getKelas(j).getKelas());
+                        }
+                    }
+                    System.out.println("Pilih Dosen : ");
+                    int pildosen = s.nextInt();
+                    System.out.println("Pilih Kelas : ");
+                    int pilkelas = s.nextInt();
+                    Mahasiswa m = daftarMahasiswa.get(loggedin);
+                    m.addToKelas(daftarDosen.get(pildosen-1).getKelasByIndex(pilkelas-1));
                     updateFileMahasiswa();
                     break;
                 default:
@@ -297,6 +311,7 @@ public class Aplikasi {
 
     }
 
+    //SIGN UP
     public void menuSignUp() {
         String pil = null;
         do {
@@ -347,6 +362,7 @@ public class Aplikasi {
         } while (!pil.equals("3"));
     }
 
+    //LOG IN
     public String login(String username, String password) {
         for (Dosen d : daftarDosen) {
             if (d.getUsername().equals(username) && d.getPassword().equals(password)) {
@@ -363,6 +379,7 @@ public class Aplikasi {
         return "Password atau username salah!";
     }
 
+    //MAIN MENU
     public void mainMenu() {
         String pil;
         do {

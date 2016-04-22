@@ -25,4 +25,8 @@ public class Mahasiswa extends Orang implements Serializable {
     public void setNim(String nim) {
         this.nim = nim;
     }
+    
+    public void addToKelas(Kelas k) {
+        k.addMahasiswa(this);
+    }
 }
