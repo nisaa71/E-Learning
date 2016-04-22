@@ -5,6 +5,8 @@
  */
 package Models;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Faridh Ronianto
@@ -67,8 +69,16 @@ public class Kelas {
 	}
 	return mhs;
     }
-    public void deleteMahasiswa(Mahasiswa m){
-        if(anggota.size() > 0) anggota.remove(m);
-        else System.out.println("Kelas Kosong");
+    public boolean deleteMahasiswa(String nim){
+        for(int i=0;i<anggota.size(); i++){
+            if(anggota.get(i).getNim().equals(nim)){
+                anggota.remove(i);
+                return true;
+            }
+        }
+        return false;
+    }
+    public ArrayList<Mahasiswa> getMahasiswa(){
+        return anggota;
     }
 }
