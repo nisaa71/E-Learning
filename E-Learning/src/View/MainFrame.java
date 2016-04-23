@@ -25,17 +25,6 @@ public class MainFrame extends javax.swing.JFrame {
         initComponents();
     }
 
-    public JButton getLogin() {
-        return Login;
-    }
-
-    public JTextField getUsenameLogIn() {
-        return UsernameLogIn;
-    }
-
-    public JPasswordField getPasswordLogIn() {
-        return UsernamePassword;
-    }
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -46,105 +35,1029 @@ public class MainFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        home = new javax.swing.JLabel();
+        HalamanLogin = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        UsernamePassword = new javax.swing.JPasswordField();
-        UsernameLogIn = new javax.swing.JTextField();
-        Login = new javax.swing.JButton();
-        SignUp = new javax.swing.JButton();
+        InputUsername = new javax.swing.JTextField();
+        InputPassword = new javax.swing.JPasswordField();
+        SignInLogin = new javax.swing.JButton();
+        SignUpLogin = new javax.swing.JButton();
+        HalamanSignUpAs = new javax.swing.JPanel();
+        jLabel4 = new javax.swing.JLabel();
+        AsDosen = new javax.swing.JButton();
+        AsMahasiswa = new javax.swing.JButton();
+        AsBack = new javax.swing.JButton();
+        HalamanSignUpDosen = new javax.swing.JPanel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        SignUpNama = new javax.swing.JTextField();
+        SignUpNIP = new javax.swing.JTextField();
+        SignUpKodeDosen = new javax.swing.JTextField();
+        SignUpUsername = new javax.swing.JTextField();
+        SignUpPassword = new javax.swing.JPasswordField();
+        SignUpUmur = new javax.swing.JTextField();
+        SignUpAlamat = new javax.swing.JTextField();
+        SignUpCreate = new javax.swing.JButton();
+        SignUpCancel = new javax.swing.JButton();
+        HalamanSignUpMahasiswa = new javax.swing.JPanel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        SignUpNamaMahasiswa = new javax.swing.JTextField();
+        SignUpNIM = new javax.swing.JTextField();
+        SignUpUsernameMahasiswa = new javax.swing.JTextField();
+        SignUpPasswordMahasiswa = new javax.swing.JPasswordField();
+        SignUpUmurMahasiswa = new javax.swing.JTextField();
+        SignUpAlamatMahasiswa = new javax.swing.JTextField();
+        SignUpCreateMahasiswa = new javax.swing.JButton();
+        SignUpCancelMahasiswa = new javax.swing.JButton();
+        HalamanMenuMahasiswa = new javax.swing.JPanel();
+        jLabel16 = new javax.swing.JLabel();
+        LihatDaftarKelas = new javax.swing.JButton();
+        DaftarKeKelas = new javax.swing.JButton();
+        LogOutMahasiswa = new javax.swing.JButton();
+        HalamanMenuDosen = new javax.swing.JPanel();
+        jLabel21 = new javax.swing.JLabel();
+        addKelas = new javax.swing.JButton();
+        addTugas = new javax.swing.JButton();
+        addMahasiswa = new javax.swing.JButton();
+        deleteMahasiswa = new javax.swing.JButton();
+        LogOutDosen = new javax.swing.JButton();
+        HalamanAddKelas = new javax.swing.JPanel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        AddKelasNamaKelas = new javax.swing.JTextField();
+        jLabel24 = new javax.swing.JLabel();
+        AddKelasNamaMataKuliah = new javax.swing.JTextField();
+        AddKelasCreateKelas = new javax.swing.JButton();
+        AddKelasCancelKelas = new javax.swing.JButton();
+        HalamanAddTugas = new javax.swing.JPanel();
+        jLabel25 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        AddTugasNamaKelas = new javax.swing.JComboBox<>();
+        AddTugasNamaMataKuliah = new javax.swing.JComboBox<>();
+        AddTugasSKS = new javax.swing.JTextField();
+        AddTugasDeadline = new javax.swing.JTextField();
+        AddTugasCreate = new javax.swing.JButton();
+        addTugasCancel = new javax.swing.JButton();
+        HalamanDeleteMahasiswa = new javax.swing.JPanel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        DeletePilihKelas = new javax.swing.JComboBox<>();
+        jLabel32 = new javax.swing.JLabel();
+        DeletePilihNIM = new javax.swing.JComboBox<>();
+        DeleteMahasiswaHapus = new javax.swing.JButton();
+        DeleteMahasiswaBatal = new javax.swing.JButton();
+        HalamanAddMahasiswa = new javax.swing.JPanel();
+        jLabel33 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        AddPilihKelas = new javax.swing.JComboBox<>();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
+        AddNamaMahasiswa = new javax.swing.JTextField();
+        AddNIMMahasiswa = new javax.swing.JTextField();
+        AddTambah = new javax.swing.JButton();
+        AddCancel = new javax.swing.JButton();
+        HalamanLihatDaftarKelas = new javax.swing.JPanel();
+        jLabel37 = new javax.swing.JLabel();
+        DaftarKelas = new javax.swing.JScrollPane();
+        ListKelas = new javax.swing.JList<>();
+        Kembali = new javax.swing.JButton();
+        HalamanDaftarKeKelas = new javax.swing.JPanel();
+        PilihKelas = new javax.swing.JComboBox<>();
+        jLabel38 = new javax.swing.JLabel();
+        jLabel39 = new javax.swing.JLabel();
+        jLabel40 = new javax.swing.JLabel();
+        jLabel41 = new javax.swing.JLabel();
+        NamaMahasiswa = new javax.swing.JTextField();
+        NIMMahasiswa = new javax.swing.JTextField();
+        Daftar = new javax.swing.JButton();
+        DaftarBatal = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new java.awt.CardLayout());
 
-        home.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        home.setText("E-Learning");
-        home.setToolTipText("");
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel1.setText("E-Learning");
 
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel2.setText("Username");
 
+        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel3.setText("Password");
 
-        UsernamePassword.setText("jPasswordField1");
-        UsernamePassword.addActionListener(new java.awt.event.ActionListener() {
+        InputUsername.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+
+        InputPassword.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+
+        SignInLogin.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        SignInLogin.setText("Sign In");
+        SignInLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                UsernamePasswordActionPerformed(evt);
+                SignInLoginActionPerformed(evt);
             }
         });
 
-        UsernameLogIn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                UsernameLogInActionPerformed(evt);
-            }
-        });
+        SignUpLogin.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        SignUpLogin.setText("Sign Up");
 
-        Login.setText("Sign In");
-
-        SignUp.setText("Sign Up");
-
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(140, 140, 140)
-                        .addComponent(home))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(64, 64, 64)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel2)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(UsernameLogIn, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel3)
-                                .addGap(18, 18, 18)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(Login)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(SignUp))
-                                    .addComponent(UsernamePassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))))
-                .addContainerGap(61, Short.MAX_VALUE))
+        javax.swing.GroupLayout HalamanLoginLayout = new javax.swing.GroupLayout(HalamanLogin);
+        HalamanLogin.setLayout(HalamanLoginLayout);
+        HalamanLoginLayout.setHorizontalGroup(
+            HalamanLoginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanLoginLayout.createSequentialGroup()
+                .addGap(360, 360, 360)
+                .addComponent(jLabel1)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanLoginLayout.createSequentialGroup()
+                .addGroup(HalamanLoginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(HalamanLoginLayout.createSequentialGroup()
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(SignInLogin)
+                        .addGap(85, 85, 85)
+                        .addComponent(SignUpLogin))
+                    .addGroup(HalamanLoginLayout.createSequentialGroup()
+                        .addGap(323, 323, 323)
+                        .addGroup(HalamanLoginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel3)
+                            .addComponent(jLabel2))
+                        .addGap(62, 62, 62)
+                        .addGroup(HalamanLoginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(InputUsername, javax.swing.GroupLayout.DEFAULT_SIZE, 156, Short.MAX_VALUE)
+                            .addComponent(InputPassword))))
+                .addGap(336, 336, 336))
         );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(30, 30, 30)
-                .addComponent(home, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        HalamanLoginLayout.setVerticalGroup(
+            HalamanLoginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanLoginLayout.createSequentialGroup()
+                .addGap(51, 51, 51)
+                .addComponent(jLabel1)
+                .addGap(61, 61, 61)
+                .addGroup(HalamanLoginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
-                    .addComponent(UsernameLogIn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(UsernamePassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Login)
-                    .addComponent(SignUp))
-                .addContainerGap(83, Short.MAX_VALUE))
+                    .addComponent(InputUsername, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(32, 32, 32)
+                .addGroup(HalamanLoginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(InputPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel3))
+                .addGap(46, 46, 46)
+                .addGroup(HalamanLoginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(SignInLogin)
+                    .addComponent(SignUpLogin))
+                .addContainerGap(139, Short.MAX_VALUE))
         );
+
+        getContentPane().add(HalamanLogin, "HalamanLogin");
+
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel4.setText("E-Learning");
+
+        AsDosen.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AsDosen.setText("Dosen");
+
+        AsMahasiswa.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AsMahasiswa.setText("Mahasiswa");
+
+        AsBack.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        AsBack.setText("Back");
+
+        javax.swing.GroupLayout HalamanSignUpAsLayout = new javax.swing.GroupLayout(HalamanSignUpAs);
+        HalamanSignUpAs.setLayout(HalamanSignUpAsLayout);
+        HalamanSignUpAsLayout.setHorizontalGroup(
+            HalamanSignUpAsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanSignUpAsLayout.createSequentialGroup()
+                .addGroup(HalamanSignUpAsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(HalamanSignUpAsLayout.createSequentialGroup()
+                        .addGap(391, 391, 391)
+                        .addComponent(jLabel4))
+                    .addGroup(HalamanSignUpAsLayout.createSequentialGroup()
+                        .addGap(317, 317, 317)
+                        .addComponent(AsDosen)
+                        .addGap(130, 130, 130)
+                        .addComponent(AsMahasiswa))
+                    .addGroup(HalamanSignUpAsLayout.createSequentialGroup()
+                        .addGap(452, 452, 452)
+                        .addComponent(AsBack)))
+                .addContainerGap(290, Short.MAX_VALUE))
+        );
+        HalamanSignUpAsLayout.setVerticalGroup(
+            HalamanSignUpAsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanSignUpAsLayout.createSequentialGroup()
+                .addGap(46, 46, 46)
+                .addComponent(jLabel4)
+                .addGap(131, 131, 131)
+                .addGroup(HalamanSignUpAsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(AsMahasiswa)
+                    .addComponent(AsDosen))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 68, Short.MAX_VALUE)
+                .addComponent(AsBack)
+                .addGap(117, 117, 117))
+        );
+
+        getContentPane().add(HalamanSignUpAs, "HalamanSignUpAs");
+
+        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel5.setText("E-Learning");
+
+        jLabel6.setText("Nama");
+
+        jLabel7.setText("NIP");
+
+        jLabel8.setText("Kode Dosen");
+
+        jLabel9.setText("Umur");
+
+        jLabel10.setText("Alamat");
+
+        jLabel11.setText("Username");
+
+        jLabel12.setText("Password");
+
+        SignUpCreate.setText("Buat");
+
+        SignUpCancel.setText("Batal");
+
+        javax.swing.GroupLayout HalamanSignUpDosenLayout = new javax.swing.GroupLayout(HalamanSignUpDosen);
+        HalamanSignUpDosen.setLayout(HalamanSignUpDosenLayout);
+        HalamanSignUpDosenLayout.setHorizontalGroup(
+            HalamanSignUpDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanSignUpDosenLayout.createSequentialGroup()
+                .addGroup(HalamanSignUpDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(HalamanSignUpDosenLayout.createSequentialGroup()
+                        .addGap(331, 331, 331)
+                        .addGroup(HalamanSignUpDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(HalamanSignUpDosenLayout.createSequentialGroup()
+                                .addGroup(HalamanSignUpDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel6)
+                                    .addComponent(jLabel8)
+                                    .addComponent(jLabel7)
+                                    .addComponent(jLabel11)
+                                    .addComponent(jLabel12)
+                                    .addComponent(jLabel9)
+                                    .addComponent(jLabel10))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGroup(HalamanSignUpDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(SignUpUsername, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(SignUpPassword, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(SignUpUmur, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(SignUpAlamat, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(SignUpNIP, javax.swing.GroupLayout.DEFAULT_SIZE, 262, Short.MAX_VALUE)
+                                    .addComponent(SignUpKodeDosen)
+                                    .addComponent(SignUpNama)))
+                            .addGroup(HalamanSignUpDosenLayout.createSequentialGroup()
+                                .addGap(67, 67, 67)
+                                .addComponent(SignUpCreate)
+                                .addGap(86, 86, 86)
+                                .addComponent(SignUpCancel)
+                                .addGap(0, 69, Short.MAX_VALUE))))
+                    .addGroup(HalamanSignUpDosenLayout.createSequentialGroup()
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel5)
+                        .addGap(77, 77, 77)))
+                .addGap(305, 305, 305))
+        );
+        HalamanSignUpDosenLayout.setVerticalGroup(
+            HalamanSignUpDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanSignUpDosenLayout.createSequentialGroup()
+                .addGap(66, 66, 66)
+                .addComponent(jLabel5)
+                .addGap(25, 25, 25)
+                .addGroup(HalamanSignUpDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel6)
+                    .addComponent(SignUpNama, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(HalamanSignUpDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(SignUpNIP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel7))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(HalamanSignUpDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel8)
+                    .addComponent(SignUpKodeDosen, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(HalamanSignUpDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel11)
+                    .addComponent(SignUpUsername, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(HalamanSignUpDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(SignUpPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(HalamanSignUpDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel9)
+                    .addComponent(SignUpUmur, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(HalamanSignUpDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel10)
+                    .addComponent(SignUpAlamat, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(HalamanSignUpDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(SignUpCancel)
+                    .addComponent(SignUpCreate))
+                .addContainerGap(49, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(HalamanSignUpDosen, "HalamanSignUpDosen");
+
+        jLabel13.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel13.setText("E-Learning");
+
+        jLabel14.setText("Nama");
+
+        jLabel15.setText("NIP");
+
+        jLabel17.setText("Umur");
+
+        jLabel18.setText("Alamat");
+
+        jLabel19.setText("Username");
+
+        jLabel20.setText("Password");
+
+        SignUpCreateMahasiswa.setText("Buat");
+
+        SignUpCancelMahasiswa.setText("Batal");
+
+        javax.swing.GroupLayout HalamanSignUpMahasiswaLayout = new javax.swing.GroupLayout(HalamanSignUpMahasiswa);
+        HalamanSignUpMahasiswa.setLayout(HalamanSignUpMahasiswaLayout);
+        HalamanSignUpMahasiswaLayout.setHorizontalGroup(
+            HalamanSignUpMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanSignUpMahasiswaLayout.createSequentialGroup()
+                .addGroup(HalamanSignUpMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(HalamanSignUpMahasiswaLayout.createSequentialGroup()
+                        .addGap(331, 331, 331)
+                        .addGroup(HalamanSignUpMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel14)
+                            .addComponent(jLabel15)
+                            .addComponent(jLabel19)
+                            .addComponent(jLabel20)
+                            .addComponent(jLabel17)
+                            .addComponent(jLabel18))
+                        .addGap(18, 18, 18)
+                        .addGroup(HalamanSignUpMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(HalamanSignUpMahasiswaLayout.createSequentialGroup()
+                                .addGap(0, 0, Short.MAX_VALUE)
+                                .addGroup(HalamanSignUpMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(SignUpNIM, javax.swing.GroupLayout.DEFAULT_SIZE, 262, Short.MAX_VALUE)
+                                    .addComponent(SignUpNamaMahasiswa)))
+                            .addGroup(HalamanSignUpMahasiswaLayout.createSequentialGroup()
+                                .addGroup(HalamanSignUpMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(SignUpUsernameMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(SignUpPasswordMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(SignUpUmurMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(SignUpAlamatMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(0, 0, Short.MAX_VALUE))))
+                    .addGroup(HalamanSignUpMahasiswaLayout.createSequentialGroup()
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel13)
+                        .addGap(77, 77, 77)))
+                .addGap(305, 305, 305))
+            .addGroup(HalamanSignUpMahasiswaLayout.createSequentialGroup()
+                .addGap(371, 371, 371)
+                .addComponent(SignUpCreateMahasiswa)
+                .addGap(57, 57, 57)
+                .addComponent(SignUpCancelMahasiswa)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        HalamanSignUpMahasiswaLayout.setVerticalGroup(
+            HalamanSignUpMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanSignUpMahasiswaLayout.createSequentialGroup()
+                .addGap(66, 66, 66)
+                .addComponent(jLabel13)
+                .addGap(25, 25, 25)
+                .addGroup(HalamanSignUpMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel14)
+                    .addComponent(SignUpNamaMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(HalamanSignUpMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(SignUpNIM, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel15))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(HalamanSignUpMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel19)
+                    .addComponent(SignUpUsernameMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(HalamanSignUpMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(SignUpPasswordMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(HalamanSignUpMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel17)
+                    .addComponent(SignUpUmurMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(HalamanSignUpMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel18)
+                    .addComponent(SignUpAlamatMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(HalamanSignUpMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(SignUpCreateMahasiswa)
+                    .addComponent(SignUpCancelMahasiswa))
+                .addContainerGap(91, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(HalamanSignUpMahasiswa, "HalamanSingUpMahasiswa");
+
+        jLabel16.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel16.setText("E-Learning");
+
+        LihatDaftarKelas.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        LihatDaftarKelas.setText("Lihat Daftar Kelas");
+
+        DaftarKeKelas.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        DaftarKeKelas.setText("Daftar ke Kelas");
+
+        LogOutMahasiswa.setText("Log Out");
+
+        javax.swing.GroupLayout HalamanMenuMahasiswaLayout = new javax.swing.GroupLayout(HalamanMenuMahasiswa);
+        HalamanMenuMahasiswa.setLayout(HalamanMenuMahasiswaLayout);
+        HalamanMenuMahasiswaLayout.setHorizontalGroup(
+            HalamanMenuMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanMenuMahasiswaLayout.createSequentialGroup()
+                .addGap(190, 190, 190)
+                .addComponent(LihatDaftarKelas, javax.swing.GroupLayout.PREFERRED_SIZE, 243, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(122, 122, 122)
+                .addComponent(DaftarKeKelas, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(207, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanMenuMahasiswaLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(HalamanMenuMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanMenuMahasiswaLayout.createSequentialGroup()
+                        .addComponent(jLabel16)
+                        .addGap(382, 382, 382))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanMenuMahasiswaLayout.createSequentialGroup()
+                        .addComponent(LogOutMahasiswa)
+                        .addGap(93, 93, 93))))
+        );
+        HalamanMenuMahasiswaLayout.setVerticalGroup(
+            HalamanMenuMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanMenuMahasiswaLayout.createSequentialGroup()
+                .addGap(10, 10, 10)
+                .addComponent(LogOutMahasiswa)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel16)
+                .addGap(119, 119, 119)
+                .addGroup(HalamanMenuMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(LihatDaftarKelas)
+                    .addComponent(DaftarKeKelas))
+                .addContainerGap(217, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(HalamanMenuMahasiswa, "HalamanMenuMahasiswa");
+
+        jLabel21.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel21.setText("E-Learning");
+
+        addKelas.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        addKelas.setText("Buat Kelas");
+        addKelas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                addKelasActionPerformed(evt);
+            }
+        });
+
+        addTugas.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        addTugas.setText("Buat Tugas");
+
+        addMahasiswa.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        addMahasiswa.setText("Tambah Mahasiswa");
+
+        deleteMahasiswa.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        deleteMahasiswa.setText("Hapus Mahasiswa");
+
+        LogOutDosen.setText("Log Out");
+
+        javax.swing.GroupLayout HalamanMenuDosenLayout = new javax.swing.GroupLayout(HalamanMenuDosen);
+        HalamanMenuDosen.setLayout(HalamanMenuDosenLayout);
+        HalamanMenuDosenLayout.setHorizontalGroup(
+            HalamanMenuDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanMenuDosenLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel21)
+                .addGap(382, 382, 382))
+            .addGroup(HalamanMenuDosenLayout.createSequentialGroup()
+                .addContainerGap(205, Short.MAX_VALUE)
+                .addGroup(HalamanMenuDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(addKelas, javax.swing.GroupLayout.PREFERRED_SIZE, 243, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(addMahasiswa))
+                .addGap(153, 153, 153)
+                .addGroup(HalamanMenuDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(deleteMahasiswa, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(addTugas, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(161, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanMenuDosenLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(LogOutDosen)
+                .addGap(93, 93, 93))
+        );
+        HalamanMenuDosenLayout.setVerticalGroup(
+            HalamanMenuDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanMenuDosenLayout.createSequentialGroup()
+                .addGap(10, 10, 10)
+                .addComponent(LogOutDosen)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel21)
+                .addGap(64, 64, 64)
+                .addGroup(HalamanMenuDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(addKelas)
+                    .addComponent(addTugas))
+                .addGap(72, 72, 72)
+                .addGroup(HalamanMenuDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(addMahasiswa)
+                    .addComponent(deleteMahasiswa))
+                .addContainerGap(163, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(HalamanMenuDosen, "HalamanMenuDosen");
+
+        jLabel22.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel22.setText("E-Learning");
+
+        jLabel23.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel23.setText("Nama Kelas");
+
+        AddKelasNamaKelas.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+
+        jLabel24.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel24.setText("Nama Mata Kuliah");
+
+        AddKelasNamaMataKuliah.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+
+        AddKelasCreateKelas.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        AddKelasCreateKelas.setText("Buat");
+
+        AddKelasCancelKelas.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        AddKelasCancelKelas.setText("Batal");
+
+        javax.swing.GroupLayout HalamanAddKelasLayout = new javax.swing.GroupLayout(HalamanAddKelas);
+        HalamanAddKelas.setLayout(HalamanAddKelasLayout);
+        HalamanAddKelasLayout.setHorizontalGroup(
+            HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanAddKelasLayout.createSequentialGroup()
+                .addGap(382, 382, 382)
+                .addComponent(jLabel22)
+                .addContainerGap(405, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanAddKelasLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel24)
+                    .addGroup(HalamanAddKelasLayout.createSequentialGroup()
+                        .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(HalamanAddKelasLayout.createSequentialGroup()
+                                .addComponent(jLabel23)
+                                .addGap(136, 136, 136))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanAddKelasLayout.createSequentialGroup()
+                                .addComponent(AddKelasCreateKelas)
+                                .addGap(35, 35, 35)))
+                        .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(AddKelasNamaKelas, javax.swing.GroupLayout.DEFAULT_SIZE, 283, Short.MAX_VALUE)
+                            .addComponent(AddKelasNamaMataKuliah)
+                            .addGroup(HalamanAddKelasLayout.createSequentialGroup()
+                                .addGap(17, 17, 17)
+                                .addComponent(AddKelasCancelKelas)))))
+                .addGap(165, 165, 165))
+        );
+        HalamanAddKelasLayout.setVerticalGroup(
+            HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanAddKelasLayout.createSequentialGroup()
+                .addGap(50, 50, 50)
+                .addComponent(jLabel22)
+                .addGap(74, 74, 74)
+                .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel23)
+                    .addComponent(AddKelasNamaKelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(HalamanAddKelasLayout.createSequentialGroup()
+                        .addGap(41, 41, 41)
+                        .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel24)
+                            .addComponent(AddKelasNamaMataKuliah, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanAddKelasLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 167, Short.MAX_VALUE)
+                        .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(AddKelasCreateKelas)
+                            .addComponent(AddKelasCancelKelas))
+                        .addGap(73, 73, 73))))
+        );
+
+        getContentPane().add(HalamanAddKelas, "HalamanAddKelas");
+
+        jLabel25.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel25.setText("E-Learning");
+
+        jLabel26.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel26.setText("Nama Kelas");
+
+        jLabel27.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel27.setText("Nama Mata Kuliah");
+
+        jLabel28.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel28.setText("SKS");
+
+        jLabel29.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel29.setText("Deadline");
+
+        AddTugasNamaKelas.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddTugasNamaKelas.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "IF 38-01", "IF 38-02", "IF 38-03", "IF 38-04", "IF 38-05", "IF 38-06", "IF 38-07", "IF 38-08", "IF 38-09", "IF 38-10" }));
+
+        AddTugasNamaMataKuliah.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddTugasNamaMataKuliah.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "PBO", "RPL", "ASD", "BDR", "DAP", "SLD", "COA" }));
+
+        AddTugasSKS.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+
+        AddTugasDeadline.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+
+        AddTugasCreate.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        AddTugasCreate.setText("Buat");
+
+        addTugasCancel.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        addTugasCancel.setText("Batal");
+
+        javax.swing.GroupLayout HalamanAddTugasLayout = new javax.swing.GroupLayout(HalamanAddTugas);
+        HalamanAddTugas.setLayout(HalamanAddTugasLayout);
+        HalamanAddTugasLayout.setHorizontalGroup(
+            HalamanAddTugasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanAddTugasLayout.createSequentialGroup()
+                .addGroup(HalamanAddTugasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(HalamanAddTugasLayout.createSequentialGroup()
+                        .addGap(384, 384, 384)
+                        .addComponent(jLabel25))
+                    .addGroup(HalamanAddTugasLayout.createSequentialGroup()
+                        .addGap(249, 249, 249)
+                        .addGroup(HalamanAddTugasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel27)
+                            .addComponent(jLabel28)
+                            .addComponent(jLabel29)
+                            .addComponent(jLabel26))
+                        .addGap(119, 119, 119)
+                        .addGroup(HalamanAddTugasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(AddTugasNamaMataKuliah, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(AddTugasNamaKelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(AddTugasSKS, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(AddTugasDeadline, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(HalamanAddTugasLayout.createSequentialGroup()
+                        .addGap(364, 364, 364)
+                        .addComponent(AddTugasCreate)
+                        .addGap(77, 77, 77)
+                        .addComponent(addTugasCancel)))
+                .addContainerGap(292, Short.MAX_VALUE))
+        );
+        HalamanAddTugasLayout.setVerticalGroup(
+            HalamanAddTugasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanAddTugasLayout.createSequentialGroup()
+                .addGap(53, 53, 53)
+                .addComponent(jLabel25)
+                .addGap(40, 40, 40)
+                .addGroup(HalamanAddTugasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel26)
+                    .addComponent(AddTugasNamaKelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(HalamanAddTugasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel27)
+                    .addComponent(AddTugasNamaMataKuliah, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(HalamanAddTugasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel28, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(AddTugasSKS, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(HalamanAddTugasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel29)
+                    .addComponent(AddTugasDeadline, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 24, Short.MAX_VALUE)
+                .addGroup(HalamanAddTugasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(AddTugasCreate)
+                    .addComponent(addTugasCancel))
+                .addGap(88, 88, 88))
+        );
+
+        getContentPane().add(HalamanAddTugas, "HalamanAddTugas");
+
+        jLabel30.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel30.setText("E-Learning");
+
+        jLabel31.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel31.setText("Nama Kelas");
+
+        DeletePilihKelas.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        DeletePilihKelas.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "IF 38-01", "IF 38-02", "IF 38-03", "IF 38-04", "IF 38-05", "IF 38-06", "IF 38-07", "IF 38-08", "IF 38-09", "IF 38-10" }));
+        DeletePilihKelas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DeletePilihKelasActionPerformed(evt);
+            }
+        });
+
+        jLabel32.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel32.setText("NIM");
+
+        DeletePilihNIM.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        DeletePilihNIM.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1301140213", "1301140263", "1301142403", "1301144203" }));
+
+        DeleteMahasiswaHapus.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        DeleteMahasiswaHapus.setText("Hapus");
+
+        DeleteMahasiswaBatal.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        DeleteMahasiswaBatal.setText("Batal");
+
+        javax.swing.GroupLayout HalamanDeleteMahasiswaLayout = new javax.swing.GroupLayout(HalamanDeleteMahasiswa);
+        HalamanDeleteMahasiswa.setLayout(HalamanDeleteMahasiswaLayout);
+        HalamanDeleteMahasiswaLayout.setHorizontalGroup(
+            HalamanDeleteMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanDeleteMahasiswaLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel30)
+                .addGap(386, 386, 386))
+            .addGroup(HalamanDeleteMahasiswaLayout.createSequentialGroup()
+                .addGroup(HalamanDeleteMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(HalamanDeleteMahasiswaLayout.createSequentialGroup()
+                        .addGap(294, 294, 294)
+                        .addGroup(HalamanDeleteMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel31)
+                            .addComponent(jLabel32)))
+                    .addGroup(HalamanDeleteMahasiswaLayout.createSequentialGroup()
+                        .addGap(368, 368, 368)
+                        .addComponent(DeleteMahasiswaHapus)))
+                .addGap(63, 63, 63)
+                .addGroup(HalamanDeleteMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(DeleteMahasiswaBatal)
+                    .addComponent(DeletePilihNIM, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(DeletePilihKelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(303, Short.MAX_VALUE))
+        );
+        HalamanDeleteMahasiswaLayout.setVerticalGroup(
+            HalamanDeleteMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanDeleteMahasiswaLayout.createSequentialGroup()
+                .addGap(54, 54, 54)
+                .addComponent(jLabel30)
+                .addGap(53, 53, 53)
+                .addGroup(HalamanDeleteMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel31)
+                    .addComponent(DeletePilihKelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(31, 31, 31)
+                .addGroup(HalamanDeleteMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel32)
+                    .addComponent(DeletePilihNIM, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 76, Short.MAX_VALUE)
+                .addGroup(HalamanDeleteMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(DeleteMahasiswaHapus)
+                    .addComponent(DeleteMahasiswaBatal))
+                .addGap(115, 115, 115))
+        );
+
+        getContentPane().add(HalamanDeleteMahasiswa, "HalamanDeleteMahasiswa");
+
+        jLabel33.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel33.setText("E-Learning");
+
+        jLabel34.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel34.setText("Nama Mahasiswa");
+
+        AddPilihKelas.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddPilihKelas.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "IF 38-01", "IF 38-02", "IF 38-03", "IF 38-04", "IF 38-05", "IF 38-06", "IF 38-07", "IF 38-08", "IF 38-09", "IF 38-10" }));
+        AddPilihKelas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AddPilihKelasActionPerformed(evt);
+            }
+        });
+
+        jLabel35.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel35.setText("Nama Kelas");
+
+        jLabel36.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel36.setText("NIM");
+
+        AddNamaMahasiswa.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+
+        AddNIMMahasiswa.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+
+        AddTambah.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        AddTambah.setText("Tambah");
+
+        AddCancel.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        AddCancel.setText("Batal");
+
+        javax.swing.GroupLayout HalamanAddMahasiswaLayout = new javax.swing.GroupLayout(HalamanAddMahasiswa);
+        HalamanAddMahasiswa.setLayout(HalamanAddMahasiswaLayout);
+        HalamanAddMahasiswaLayout.setHorizontalGroup(
+            HalamanAddMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanAddMahasiswaLayout.createSequentialGroup()
+                .addGroup(HalamanAddMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(HalamanAddMahasiswaLayout.createSequentialGroup()
+                        .addGap(386, 386, 386)
+                        .addComponent(jLabel33))
+                    .addGroup(HalamanAddMahasiswaLayout.createSequentialGroup()
+                        .addGap(310, 310, 310)
+                        .addGroup(HalamanAddMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel35)
+                            .addComponent(jLabel34)
+                            .addComponent(jLabel36))
+                        .addGap(69, 69, 69)
+                        .addGroup(HalamanAddMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(AddPilihKelas, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(AddNIMMahasiswa)
+                            .addComponent(AddNamaMahasiswa)))
+                    .addGroup(HalamanAddMahasiswaLayout.createSequentialGroup()
+                        .addGap(387, 387, 387)
+                        .addComponent(AddTambah)
+                        .addGap(71, 71, 71)
+                        .addComponent(AddCancel)))
+                .addContainerGap(289, Short.MAX_VALUE))
+        );
+        HalamanAddMahasiswaLayout.setVerticalGroup(
+            HalamanAddMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanAddMahasiswaLayout.createSequentialGroup()
+                .addGap(57, 57, 57)
+                .addComponent(jLabel33)
+                .addGap(70, 70, 70)
+                .addGroup(HalamanAddMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(AddPilihKelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel35))
+                .addGap(30, 30, 30)
+                .addGroup(HalamanAddMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel34)
+                    .addComponent(AddNamaMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(24, 24, 24)
+                .addGroup(HalamanAddMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel36)
+                    .addComponent(AddNIMMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 38, Short.MAX_VALUE)
+                .addGroup(HalamanAddMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(AddTambah)
+                    .addComponent(AddCancel))
+                .addGap(75, 75, 75))
+        );
+
+        getContentPane().add(HalamanAddMahasiswa, "HalamanAddMahasiswa");
+
+        jLabel37.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel37.setText("E-Learning");
+
+        DaftarKelas.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+
+        ListKelas.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "IF 38-01", "IF 38-02", "IF 38-03", "IF 38-04", "IF 38-05", "IF 38-06", "IF 38-07", "IF 38-08", "IF 38-09", "IF 38-10" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        DaftarKelas.setViewportView(ListKelas);
+
+        Kembali.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        Kembali.setText("Kembali");
+
+        javax.swing.GroupLayout HalamanLihatDaftarKelasLayout = new javax.swing.GroupLayout(HalamanLihatDaftarKelas);
+        HalamanLihatDaftarKelas.setLayout(HalamanLihatDaftarKelasLayout);
+        HalamanLihatDaftarKelasLayout.setHorizontalGroup(
+            HalamanLihatDaftarKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanLihatDaftarKelasLayout.createSequentialGroup()
+                .addGroup(HalamanLihatDaftarKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(HalamanLihatDaftarKelasLayout.createSequentialGroup()
+                        .addGap(383, 383, 383)
+                        .addComponent(jLabel37))
+                    .addGroup(HalamanLihatDaftarKelasLayout.createSequentialGroup()
+                        .addGap(450, 450, 450)
+                        .addGroup(HalamanLihatDaftarKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(Kembali)
+                            .addComponent(DaftarKelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(404, Short.MAX_VALUE))
+        );
+        HalamanLihatDaftarKelasLayout.setVerticalGroup(
+            HalamanLihatDaftarKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanLihatDaftarKelasLayout.createSequentialGroup()
+                .addGap(46, 46, 46)
+                .addComponent(jLabel37)
+                .addGap(55, 55, 55)
+                .addComponent(DaftarKelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 61, Short.MAX_VALUE)
+                .addComponent(Kembali)
+                .addGap(59, 59, 59))
+        );
+
+        getContentPane().add(HalamanLihatDaftarKelas, "HalamanLihatDaftarKelas");
+
+        PilihKelas.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        PilihKelas.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "IF 38-01", "IF 38-02", "IF 38-03", "IF 38-04", "IF 38-05", "IF 38-06", "IF 38-07", "IF 38-08", "IF 38-09", "IF 38-10" }));
+        PilihKelas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PilihKelasActionPerformed(evt);
+            }
+        });
+
+        jLabel38.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel38.setText("E-Learning");
+
+        jLabel39.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel39.setText("Nama Mahasiswa");
+
+        jLabel40.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel40.setText("NIM");
+
+        jLabel41.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel41.setText("Nama Kelas");
+
+        NamaMahasiswa.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+
+        NIMMahasiswa.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+
+        Daftar.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        Daftar.setText("Daftar");
+
+        DaftarBatal.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        DaftarBatal.setText("Batal");
+
+        javax.swing.GroupLayout HalamanDaftarKeKelasLayout = new javax.swing.GroupLayout(HalamanDaftarKeKelas);
+        HalamanDaftarKeKelas.setLayout(HalamanDaftarKeKelasLayout);
+        HalamanDaftarKeKelasLayout.setHorizontalGroup(
+            HalamanDaftarKeKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanDaftarKeKelasLayout.createSequentialGroup()
+                .addGroup(HalamanDaftarKeKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(HalamanDaftarKeKelasLayout.createSequentialGroup()
+                        .addGap(390, 390, 390)
+                        .addComponent(jLabel38))
+                    .addGroup(HalamanDaftarKeKelasLayout.createSequentialGroup()
+                        .addGroup(HalamanDaftarKeKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(HalamanDaftarKeKelasLayout.createSequentialGroup()
+                                .addGap(334, 334, 334)
+                                .addGroup(HalamanDaftarKeKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel41)
+                                    .addComponent(jLabel39)
+                                    .addComponent(jLabel40))
+                                .addGap(33, 33, 33))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanDaftarKeKelasLayout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(Daftar)
+                                .addGap(51, 51, 51)))
+                        .addGroup(HalamanDaftarKeKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(DaftarBatal)
+                            .addGroup(HalamanDaftarKeKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(PilihKelas, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(NamaMahasiswa)
+                                .addComponent(NIMMahasiswa)))))
+                .addContainerGap(302, Short.MAX_VALUE))
+        );
+        HalamanDaftarKeKelasLayout.setVerticalGroup(
+            HalamanDaftarKeKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanDaftarKeKelasLayout.createSequentialGroup()
+                .addGap(47, 47, 47)
+                .addComponent(jLabel38)
+                .addGap(112, 112, 112)
+                .addGroup(HalamanDaftarKeKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(PilihKelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel41))
+                .addGap(18, 18, 18)
+                .addGroup(HalamanDaftarKeKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel39)
+                    .addComponent(NamaMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(HalamanDaftarKeKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel40)
+                    .addComponent(NIMMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
+                .addGroup(HalamanDaftarKeKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Daftar)
+                    .addComponent(DaftarBatal))
+                .addGap(73, 73, 73))
+        );
+
+        getContentPane().add(HalamanDaftarKeKelas, "HalamanDaftarKeKelas");
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void UsernameLogInActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UsernameLogInActionPerformed
+    private void SignInLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SignInLoginActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_UsernameLogInActionPerformed
+    }//GEN-LAST:event_SignInLoginActionPerformed
 
-    private void UsernamePasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UsernamePasswordActionPerformed
+    private void addKelasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addKelasActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_UsernamePasswordActionPerformed
+    }//GEN-LAST:event_addKelasActionPerformed
+
+    private void DeletePilihKelasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DeletePilihKelasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_DeletePilihKelasActionPerformed
+
+    private void AddPilihKelasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddPilihKelasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_AddPilihKelasActionPerformed
+
+    private void PilihKelasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PilihKelasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_PilihKelasActionPerformed
 
     /**
      * @param args the command line arguments
      */
-   public JButton getBtnSignUp() {
-        return SignUp;
-    }
     
     public void showMessage(String pesan) {
         JOptionPane.showMessageDialog(null, pesan);
@@ -154,21 +1067,118 @@ public class MainFrame extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(null, pesan, judul, jenisMessage);
     }
 
-    public JButton getBtnLogin() {
-        return Login;
-    }
-
-    public JLabel getHome() {
-        return home;
-    }
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton Login;
-    private javax.swing.JButton SignUp;
-    private javax.swing.JTextField UsernameLogIn;
-    private javax.swing.JPasswordField UsernamePassword;
-    private javax.swing.JLabel home;
+    private javax.swing.JButton AddCancel;
+    private javax.swing.JButton AddKelasCancelKelas;
+    private javax.swing.JButton AddKelasCreateKelas;
+    private javax.swing.JTextField AddKelasNamaKelas;
+    private javax.swing.JTextField AddKelasNamaMataKuliah;
+    private javax.swing.JTextField AddNIMMahasiswa;
+    private javax.swing.JTextField AddNamaMahasiswa;
+    private javax.swing.JComboBox<String> AddPilihKelas;
+    private javax.swing.JButton AddTambah;
+    private javax.swing.JButton AddTugasCreate;
+    private javax.swing.JTextField AddTugasDeadline;
+    private javax.swing.JComboBox<String> AddTugasNamaKelas;
+    private javax.swing.JComboBox<String> AddTugasNamaMataKuliah;
+    private javax.swing.JTextField AddTugasSKS;
+    private javax.swing.JButton AsBack;
+    private javax.swing.JButton AsDosen;
+    private javax.swing.JButton AsMahasiswa;
+    private javax.swing.JButton Daftar;
+    private javax.swing.JButton DaftarBatal;
+    private javax.swing.JButton DaftarKeKelas;
+    private javax.swing.JScrollPane DaftarKelas;
+    private javax.swing.JButton DeleteMahasiswaBatal;
+    private javax.swing.JButton DeleteMahasiswaHapus;
+    private javax.swing.JComboBox<String> DeletePilihKelas;
+    private javax.swing.JComboBox<String> DeletePilihNIM;
+    private javax.swing.JPanel HalamanAddKelas;
+    private javax.swing.JPanel HalamanAddMahasiswa;
+    private javax.swing.JPanel HalamanAddTugas;
+    private javax.swing.JPanel HalamanDaftarKeKelas;
+    private javax.swing.JPanel HalamanDeleteMahasiswa;
+    private javax.swing.JPanel HalamanLihatDaftarKelas;
+    private javax.swing.JPanel HalamanLogin;
+    private javax.swing.JPanel HalamanMenuDosen;
+    private javax.swing.JPanel HalamanMenuMahasiswa;
+    private javax.swing.JPanel HalamanSignUpAs;
+    private javax.swing.JPanel HalamanSignUpDosen;
+    private javax.swing.JPanel HalamanSignUpMahasiswa;
+    private javax.swing.JPasswordField InputPassword;
+    private javax.swing.JTextField InputUsername;
+    private javax.swing.JButton Kembali;
+    private javax.swing.JButton LihatDaftarKelas;
+    private javax.swing.JList<String> ListKelas;
+    private javax.swing.JButton LogOutDosen;
+    private javax.swing.JButton LogOutMahasiswa;
+    private javax.swing.JTextField NIMMahasiswa;
+    private javax.swing.JTextField NamaMahasiswa;
+    private javax.swing.JComboBox<String> PilihKelas;
+    private javax.swing.JButton SignInLogin;
+    private javax.swing.JTextField SignUpAlamat;
+    private javax.swing.JTextField SignUpAlamatMahasiswa;
+    private javax.swing.JButton SignUpCancel;
+    private javax.swing.JButton SignUpCancelMahasiswa;
+    private javax.swing.JButton SignUpCreate;
+    private javax.swing.JButton SignUpCreateMahasiswa;
+    private javax.swing.JTextField SignUpKodeDosen;
+    private javax.swing.JButton SignUpLogin;
+    private javax.swing.JTextField SignUpNIM;
+    private javax.swing.JTextField SignUpNIP;
+    private javax.swing.JTextField SignUpNama;
+    private javax.swing.JTextField SignUpNamaMahasiswa;
+    private javax.swing.JPasswordField SignUpPassword;
+    private javax.swing.JPasswordField SignUpPasswordMahasiswa;
+    private javax.swing.JTextField SignUpUmur;
+    private javax.swing.JTextField SignUpUmurMahasiswa;
+    private javax.swing.JTextField SignUpUsername;
+    private javax.swing.JTextField SignUpUsernameMahasiswa;
+    private javax.swing.JButton addKelas;
+    private javax.swing.JButton addMahasiswa;
+    private javax.swing.JButton addTugas;
+    private javax.swing.JButton addTugasCancel;
+    private javax.swing.JButton deleteMahasiswa;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     // End of variables declaration//GEN-END:variables
 }
