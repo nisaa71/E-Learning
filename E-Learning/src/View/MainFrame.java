@@ -36,6 +36,7 @@ public class MainFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        Dasar = new javax.swing.JPanel();
         HalamanLogin = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -95,14 +96,6 @@ public class MainFrame extends javax.swing.JFrame {
         addMahasiswa = new javax.swing.JButton();
         deleteMahasiswa = new javax.swing.JButton();
         LogOutDosen = new javax.swing.JButton();
-        HalamanAddKelas = new javax.swing.JPanel();
-        jLabel22 = new javax.swing.JLabel();
-        jLabel23 = new javax.swing.JLabel();
-        AddKelasNamaKelas = new javax.swing.JTextField();
-        jLabel24 = new javax.swing.JLabel();
-        AddKelasNamaMataKuliah = new javax.swing.JTextField();
-        AddKelasCreateKelas = new javax.swing.JButton();
-        AddKelasCancelKelas = new javax.swing.JButton();
         HalamanAddTugas = new javax.swing.JPanel();
         jLabel25 = new javax.swing.JLabel();
         jLabel26 = new javax.swing.JLabel();
@@ -115,6 +108,14 @@ public class MainFrame extends javax.swing.JFrame {
         AddTugasDeadline = new javax.swing.JTextField();
         AddTugasCreate = new javax.swing.JButton();
         addTugasCancel = new javax.swing.JButton();
+        HalamanAddKelas = new javax.swing.JPanel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        AddKelasNamaKelas = new javax.swing.JTextField();
+        jLabel24 = new javax.swing.JLabel();
+        AddKelasNamaMataKuliah = new javax.swing.JTextField();
+        AddKelasCreateKelas = new javax.swing.JButton();
+        AddKelasCancelKelas = new javax.swing.JButton();
         HalamanDeleteMahasiswa = new javax.swing.JPanel();
         jLabel30 = new javax.swing.JLabel();
         jLabel31 = new javax.swing.JLabel();
@@ -198,7 +199,7 @@ public class MainFrame extends javax.swing.JFrame {
                             .addComponent(jLabel2))
                         .addGap(62, 62, 62)
                         .addGroup(HalamanLoginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(InputUsername, javax.swing.GroupLayout.DEFAULT_SIZE, 156, Short.MAX_VALUE)
+                            .addComponent(InputUsername, javax.swing.GroupLayout.DEFAULT_SIZE, 159, Short.MAX_VALUE)
                             .addComponent(InputPassword))))
                 .addGap(336, 336, 336))
         );
@@ -221,8 +222,6 @@ public class MainFrame extends javax.swing.JFrame {
                     .addComponent(SignUpLogin))
                 .addContainerGap(139, Short.MAX_VALUE))
         );
-
-        getContentPane().add(HalamanLogin, "HalamanLogin");
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jLabel4.setText("E-Learning");
@@ -253,7 +252,7 @@ public class MainFrame extends javax.swing.JFrame {
                     .addGroup(HalamanSignUpAsLayout.createSequentialGroup()
                         .addGap(452, 452, 452)
                         .addComponent(AsBack)))
-                .addContainerGap(290, Short.MAX_VALUE))
+                .addContainerGap(293, Short.MAX_VALUE))
         );
         HalamanSignUpAsLayout.setVerticalGroup(
             HalamanSignUpAsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -268,8 +267,6 @@ public class MainFrame extends javax.swing.JFrame {
                 .addComponent(AsBack)
                 .addGap(117, 117, 117))
         );
-
-        getContentPane().add(HalamanSignUpAs, "HalamanSignUpAs");
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jLabel5.setText("E-Learning");
@@ -371,8 +368,6 @@ public class MainFrame extends javax.swing.JFrame {
                 .addContainerGap(49, Short.MAX_VALUE))
         );
 
-        getContentPane().add(HalamanSignUpDosen, "HalamanSignUpDosen");
-
         jLabel13.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jLabel13.setText("E-Learning");
 
@@ -469,8 +464,6 @@ public class MainFrame extends javax.swing.JFrame {
                 .addContainerGap(91, Short.MAX_VALUE))
         );
 
-        getContentPane().add(HalamanSignUpMahasiswa, "HalamanSingUpMahasiswa");
-
         jLabel16.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jLabel16.setText("E-Learning");
 
@@ -491,7 +484,7 @@ public class MainFrame extends javax.swing.JFrame {
                 .addComponent(LihatDaftarKelas, javax.swing.GroupLayout.PREFERRED_SIZE, 243, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(122, 122, 122)
                 .addComponent(DaftarKeKelas, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(207, Short.MAX_VALUE))
+                .addContainerGap(210, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanMenuMahasiswaLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(HalamanMenuMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -515,8 +508,6 @@ public class MainFrame extends javax.swing.JFrame {
                     .addComponent(DaftarKeKelas))
                 .addContainerGap(217, Short.MAX_VALUE))
         );
-
-        getContentPane().add(HalamanMenuMahasiswa, "HalamanMenuMahasiswa");
 
         jLabel21.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jLabel21.setText("E-Learning");
@@ -549,7 +540,7 @@ public class MainFrame extends javax.swing.JFrame {
                 .addComponent(jLabel21)
                 .addGap(382, 382, 382))
             .addGroup(HalamanMenuDosenLayout.createSequentialGroup()
-                .addContainerGap(205, Short.MAX_VALUE)
+                .addContainerGap(206, Short.MAX_VALUE)
                 .addGroup(HalamanMenuDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(addKelas, javax.swing.GroupLayout.PREFERRED_SIZE, 243, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(addMahasiswa))
@@ -557,7 +548,7 @@ public class MainFrame extends javax.swing.JFrame {
                 .addGroup(HalamanMenuDosenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(deleteMahasiswa, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(addTugas, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(161, Short.MAX_VALUE))
+                .addContainerGap(163, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanMenuDosenLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(LogOutDosen)
@@ -580,81 +571,6 @@ public class MainFrame extends javax.swing.JFrame {
                     .addComponent(deleteMahasiswa))
                 .addContainerGap(163, Short.MAX_VALUE))
         );
-
-        getContentPane().add(HalamanMenuDosen, "HalamanMenuDosen");
-
-        jLabel22.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
-        jLabel22.setText("E-Learning");
-
-        jLabel23.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel23.setText("Nama Kelas");
-
-        AddKelasNamaKelas.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-
-        jLabel24.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel24.setText("Nama Mata Kuliah");
-
-        AddKelasNamaMataKuliah.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-
-        AddKelasCreateKelas.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        AddKelasCreateKelas.setText("Buat");
-
-        AddKelasCancelKelas.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        AddKelasCancelKelas.setText("Batal");
-
-        javax.swing.GroupLayout HalamanAddKelasLayout = new javax.swing.GroupLayout(HalamanAddKelas);
-        HalamanAddKelas.setLayout(HalamanAddKelasLayout);
-        HalamanAddKelasLayout.setHorizontalGroup(
-            HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(HalamanAddKelasLayout.createSequentialGroup()
-                .addGap(382, 382, 382)
-                .addComponent(jLabel22)
-                .addContainerGap(405, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanAddKelasLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel24)
-                    .addGroup(HalamanAddKelasLayout.createSequentialGroup()
-                        .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(HalamanAddKelasLayout.createSequentialGroup()
-                                .addComponent(jLabel23)
-                                .addGap(136, 136, 136))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanAddKelasLayout.createSequentialGroup()
-                                .addComponent(AddKelasCreateKelas)
-                                .addGap(35, 35, 35)))
-                        .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(AddKelasNamaKelas, javax.swing.GroupLayout.DEFAULT_SIZE, 283, Short.MAX_VALUE)
-                            .addComponent(AddKelasNamaMataKuliah)
-                            .addGroup(HalamanAddKelasLayout.createSequentialGroup()
-                                .addGap(17, 17, 17)
-                                .addComponent(AddKelasCancelKelas)))))
-                .addGap(165, 165, 165))
-        );
-        HalamanAddKelasLayout.setVerticalGroup(
-            HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(HalamanAddKelasLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jLabel22)
-                .addGap(74, 74, 74)
-                .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel23)
-                    .addComponent(AddKelasNamaKelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(HalamanAddKelasLayout.createSequentialGroup()
-                        .addGap(41, 41, 41)
-                        .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel24)
-                            .addComponent(AddKelasNamaMataKuliah, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanAddKelasLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 167, Short.MAX_VALUE)
-                        .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(AddKelasCreateKelas)
-                            .addComponent(AddKelasCancelKelas))
-                        .addGap(73, 73, 73))))
-        );
-
-        getContentPane().add(HalamanAddKelas, "HalamanAddKelas");
 
         jLabel25.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jLabel25.setText("E-Learning");
@@ -714,7 +630,7 @@ public class MainFrame extends javax.swing.JFrame {
                         .addComponent(AddTugasCreate)
                         .addGap(77, 77, 77)
                         .addComponent(addTugasCancel)))
-                .addContainerGap(292, Short.MAX_VALUE))
+                .addContainerGap(295, Short.MAX_VALUE))
         );
         HalamanAddTugasLayout.setVerticalGroup(
             HalamanAddTugasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -744,7 +660,76 @@ public class MainFrame extends javax.swing.JFrame {
                 .addGap(88, 88, 88))
         );
 
-        getContentPane().add(HalamanAddTugas, "HalamanAddTugas");
+        jLabel22.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel22.setText("E-Learning");
+
+        jLabel23.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel23.setText("Nama Kelas");
+
+        AddKelasNamaKelas.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+
+        jLabel24.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel24.setText("Nama Mata Kuliah");
+
+        AddKelasNamaMataKuliah.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+
+        AddKelasCreateKelas.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        AddKelasCreateKelas.setText("Buat");
+
+        AddKelasCancelKelas.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        AddKelasCancelKelas.setText("Batal");
+
+        javax.swing.GroupLayout HalamanAddKelasLayout = new javax.swing.GroupLayout(HalamanAddKelas);
+        HalamanAddKelas.setLayout(HalamanAddKelasLayout);
+        HalamanAddKelasLayout.setHorizontalGroup(
+            HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanAddKelasLayout.createSequentialGroup()
+                .addGap(382, 382, 382)
+                .addComponent(jLabel22)
+                .addContainerGap(408, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanAddKelasLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel24)
+                    .addGroup(HalamanAddKelasLayout.createSequentialGroup()
+                        .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(HalamanAddKelasLayout.createSequentialGroup()
+                                .addComponent(jLabel23)
+                                .addGap(136, 136, 136))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanAddKelasLayout.createSequentialGroup()
+                                .addComponent(AddKelasCreateKelas)
+                                .addGap(35, 35, 35)))
+                        .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(AddKelasNamaKelas, javax.swing.GroupLayout.DEFAULT_SIZE, 283, Short.MAX_VALUE)
+                            .addComponent(AddKelasNamaMataKuliah)
+                            .addGroup(HalamanAddKelasLayout.createSequentialGroup()
+                                .addGap(17, 17, 17)
+                                .addComponent(AddKelasCancelKelas)))))
+                .addGap(165, 165, 165))
+        );
+        HalamanAddKelasLayout.setVerticalGroup(
+            HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HalamanAddKelasLayout.createSequentialGroup()
+                .addGap(50, 50, 50)
+                .addComponent(jLabel22)
+                .addGap(74, 74, 74)
+                .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel23)
+                    .addComponent(AddKelasNamaKelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(HalamanAddKelasLayout.createSequentialGroup()
+                        .addGap(41, 41, 41)
+                        .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel24)
+                            .addComponent(AddKelasNamaMataKuliah, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HalamanAddKelasLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 167, Short.MAX_VALUE)
+                        .addGroup(HalamanAddKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(AddKelasCreateKelas)
+                            .addComponent(AddKelasCancelKelas))
+                        .addGap(73, 73, 73))))
+        );
 
         jLabel30.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jLabel30.setText("E-Learning");
@@ -795,7 +780,7 @@ public class MainFrame extends javax.swing.JFrame {
                     .addComponent(DeleteMahasiswaBatal)
                     .addComponent(DeletePilihNIM, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(DeletePilihKelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(303, Short.MAX_VALUE))
+                .addContainerGap(306, Short.MAX_VALUE))
         );
         HalamanDeleteMahasiswaLayout.setVerticalGroup(
             HalamanDeleteMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -816,8 +801,6 @@ public class MainFrame extends javax.swing.JFrame {
                     .addComponent(DeleteMahasiswaBatal))
                 .addGap(115, 115, 115))
         );
-
-        getContentPane().add(HalamanDeleteMahasiswa, "HalamanDeleteMahasiswa");
 
         jLabel33.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jLabel33.setText("E-Learning");
@@ -874,7 +857,7 @@ public class MainFrame extends javax.swing.JFrame {
                         .addComponent(AddTambah)
                         .addGap(71, 71, 71)
                         .addComponent(AddCancel)))
-                .addContainerGap(289, Short.MAX_VALUE))
+                .addContainerGap(292, Short.MAX_VALUE))
         );
         HalamanAddMahasiswaLayout.setVerticalGroup(
             HalamanAddMahasiswaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -899,8 +882,6 @@ public class MainFrame extends javax.swing.JFrame {
                     .addComponent(AddCancel))
                 .addGap(75, 75, 75))
         );
-
-        getContentPane().add(HalamanAddMahasiswa, "HalamanAddMahasiswa");
 
         jLabel37.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jLabel37.setText("E-Learning");
@@ -931,7 +912,7 @@ public class MainFrame extends javax.swing.JFrame {
                         .addGroup(HalamanLihatDaftarKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(Kembali)
                             .addComponent(DaftarKelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(404, Short.MAX_VALUE))
+                .addContainerGap(407, Short.MAX_VALUE))
         );
         HalamanLihatDaftarKelasLayout.setVerticalGroup(
             HalamanLihatDaftarKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -944,8 +925,6 @@ public class MainFrame extends javax.swing.JFrame {
                 .addComponent(Kembali)
                 .addGap(59, 59, 59))
         );
-
-        getContentPane().add(HalamanLihatDaftarKelas, "HalamanLihatDaftarKelas");
 
         PilihKelas.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         PilihKelas.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "IF 38-01", "IF 38-02", "IF 38-03", "IF 38-04", "IF 38-05", "IF 38-06", "IF 38-07", "IF 38-08", "IF 38-09", "IF 38-10" }));
@@ -1005,7 +984,7 @@ public class MainFrame extends javax.swing.JFrame {
                                 .addComponent(PilihKelas, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(NamaMahasiswa)
                                 .addComponent(NIMMahasiswa)))))
-                .addContainerGap(302, Short.MAX_VALUE))
+                .addContainerGap(304, Short.MAX_VALUE))
         );
         HalamanDaftarKeKelasLayout.setVerticalGroup(
             HalamanDaftarKeKelasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1031,7 +1010,138 @@ public class MainFrame extends javax.swing.JFrame {
                 .addGap(73, 73, 73))
         );
 
-        getContentPane().add(HalamanDaftarKeKelas, "HalamanDaftarKeKelas");
+        javax.swing.GroupLayout DasarLayout = new javax.swing.GroupLayout(Dasar);
+        Dasar.setLayout(DasarLayout);
+        DasarLayout.setHorizontalGroup(
+            DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 988, Short.MAX_VALUE)
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanLogin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanSignUpAs, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanSignUpDosen, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanSignUpMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanMenuMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanMenuDosen, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanAddTugas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanAddKelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanDeleteMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanAddMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanLihatDaftarKelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanDaftarKeKelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+        );
+        DasarLayout.setVerticalGroup(
+            DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 474, Short.MAX_VALUE)
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanLogin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanSignUpAs, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanSignUpDosen, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanSignUpMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanMenuMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanMenuDosen, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanAddTugas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanAddKelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanDeleteMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanAddMahasiswa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanLihatDaftarKelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(DasarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DasarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(HalamanDaftarKeKelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+        );
+
+        getContentPane().add(Dasar, "Dasar");
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -1090,6 +1200,7 @@ public class MainFrame extends javax.swing.JFrame {
     private javax.swing.JButton DaftarBatal;
     private javax.swing.JButton DaftarKeKelas;
     private javax.swing.JScrollPane DaftarKelas;
+    private javax.swing.JPanel Dasar;
     private javax.swing.JButton DeleteMahasiswaBatal;
     private javax.swing.JButton DeleteMahasiswaHapus;
     private javax.swing.JComboBox<String> DeletePilihKelas;
