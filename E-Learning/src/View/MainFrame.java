@@ -1529,4 +1529,56 @@ public class MainFrame extends javax.swing.JFrame {
     public javax.swing.JButton getDeleteMahasiswa() {
         return deleteMahasiswa;
     }
+
+    public javax.swing.JPanel getDasar() {
+        return Dasar;
+    }
+
+    public javax.swing.JPanel getHalamanAddKelas() {
+        return HalamanAddKelas;
+    }
+
+    public javax.swing.JPanel getHalamanAddMahasiswa() {
+        return HalamanAddMahasiswa;
+    }
+
+    public javax.swing.JPanel getHalamanAddTugas() {
+        return HalamanAddTugas;
+    }
+
+    public javax.swing.JPanel getHalamanDaftarKeKelas() {
+        return HalamanDaftarKeKelas;
+    }
+
+    public javax.swing.JPanel getHalamanDeleteMahasiswa() {
+        return HalamanDeleteMahasiswa;
+    }
+
+    public javax.swing.JPanel getHalamanLihatDaftarKelas() {
+        return HalamanLihatDaftarKelas;
+    }
+
+    public javax.swing.JPanel getHalamanLogin() {
+        return HalamanLogin;
+    }
+
+    public javax.swing.JPanel getHalamanMenuDosen() {
+        return HalamanMenuDosen;
+    }
+
+    public javax.swing.JPanel getHalamanMenuMahasiswa() {
+        return HalamanMenuMahasiswa;
+    }
+
+    public javax.swing.JPanel getHalamanSignUpAs() {
+        return HalamanSignUpAs;
+    }
+
+    public javax.swing.JPanel getHalamanSignUpDosen() {
+        return HalamanSignUpDosen;
+    }
+
+    public javax.swing.JPanel getHalamanSignUpMahasiswa() {
+        return HalamanSignUpMahasiswa;
+    }
 }
