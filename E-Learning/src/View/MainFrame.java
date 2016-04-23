@@ -25,6 +25,7 @@ public class MainFrame extends javax.swing.JFrame {
         initComponents();
     }
 
+    
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -1181,4 +1182,240 @@ public class MainFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     // End of variables declaration//GEN-END:variables
+
+    public javax.swing.JButton getAddCancel() {
+        return AddCancel;
+    }
+
+    public javax.swing.JButton getAddKelasCancelKelas() {
+        return AddKelasCancelKelas;
+    }
+
+    public javax.swing.JButton getAddKelasCreateKelas() {
+        return AddKelasCreateKelas;
+    }
+
+    public javax.swing.JTextField getAddKelasNamaKelas() {
+        return AddKelasNamaKelas;
+    }
+
+    public javax.swing.JTextField getAddKelasNamaMataKuliah() {
+        return AddKelasNamaMataKuliah;
+    }
+
+    public javax.swing.JTextField getAddNIMMahasiswa() {
+        return AddNIMMahasiswa;
+    }
+
+    public javax.swing.JTextField getAddNamaMahasiswa() {
+        return AddNamaMahasiswa;
+    }
+
+    public javax.swing.JComboBox<String> getAddPilihKelas() {
+        return AddPilihKelas;
+    }
+
+    public javax.swing.JButton getAddTambah() {
+        return AddTambah;
+    }
+
+    public javax.swing.JButton getAddTugasCreate() {
+        return AddTugasCreate;
+    }
+
+    public javax.swing.JTextField getAddTugasDeadline() {
+        return AddTugasDeadline;
+    }
+
+    public javax.swing.JComboBox<String> getAddTugasNamaKelas() {
+        return AddTugasNamaKelas;
+    }
+
+    public javax.swing.JComboBox<String> getAddTugasNamaMataKuliah() {
+        return AddTugasNamaMataKuliah;
+    }
+
+    public javax.swing.JTextField getAddTugasSKS() {
+        return AddTugasSKS;
+    }
+
+    public javax.swing.JButton getAsBack() {
+        return AsBack;
+    }
+
+    public javax.swing.JButton getAsDosen() {
+        return AsDosen;
+    }
+
+    public javax.swing.JButton getAsMahasiswa() {
+        return AsMahasiswa;
+    }
+
+    public javax.swing.JButton getDaftar() {
+        return Daftar;
+    }
+
+    public javax.swing.JButton getDaftarBatal() {
+        return DaftarBatal;
+    }
+
+    public javax.swing.JButton getDaftarKeKelas() {
+        return DaftarKeKelas;
+    }
+
+    public javax.swing.JScrollPane getDaftarKelas() {
+        return DaftarKelas;
+    }
+
+    public javax.swing.JButton getDeleteMahasiswaBatal() {
+        return DeleteMahasiswaBatal;
+    }
+
+    public javax.swing.JButton getDeleteMahasiswaHapus() {
+        return DeleteMahasiswaHapus;
+    }
+
+    public javax.swing.JComboBox<String> getDeletePilihKelas() {
+        return DeletePilihKelas;
+    }
+
+    public javax.swing.JComboBox<String> getDeletePilihNIM() {
+        return DeletePilihNIM;
+    }
+
+    public javax.swing.JPasswordField getInputPassword() {
+        return InputPassword;
+    }
+
+    public javax.swing.JTextField getInputUsername() {
+        return InputUsername;
+    }
+
+    public javax.swing.JButton getKembali() {
+        return Kembali;
+    }
+
+    public javax.swing.JButton getLihatDaftarKelas() {
+        return LihatDaftarKelas;
+    }
+
+    public javax.swing.JList<String> getListKelas() {
+        return ListKelas;
+    }
+
+    public javax.swing.JButton getLogOutDosen() {
+        return LogOutDosen;
+    }
+
+    public javax.swing.JButton getLogOutMahasiswa() {
+        return LogOutMahasiswa;
+    }
+
+    public javax.swing.JTextField getNIMMahasiswa() {
+        return NIMMahasiswa;
+    }
+
+    public javax.swing.JTextField getNamaMahasiswa() {
+        return NamaMahasiswa;
+    }
+
+    public javax.swing.JComboBox<String> getPilihKelas() {
+        return PilihKelas;
+    }
+
+    public javax.swing.JButton getSignInLogin() {
+        return SignInLogin;
+    }
+
+    public javax.swing.JTextField getSignUpAlamat() {
+        return SignUpAlamat;
+    }
+
+    public javax.swing.JTextField getSignUpAlamatMahasiswa() {
+        return SignUpAlamatMahasiswa;
+    }
+
+    public javax.swing.JButton getSignUpCancel() {
+        return SignUpCancel;
+    }
+
+    public javax.swing.JButton getSignUpCancelMahasiswa() {
+        return SignUpCancelMahasiswa;
+    }
+
+    public javax.swing.JButton getSignUpCreate() {
+        return SignUpCreate;
+    }
+
+    public javax.swing.JButton getSignUpCreateMahasiswa() {
+        return SignUpCreateMahasiswa;
+    }
+
+    public javax.swing.JTextField getSignUpKodeDosen() {
+        return SignUpKodeDosen;
+    }
+
+    public javax.swing.JButton getSignUpLogin() {
+        return SignUpLogin;
+    }
+
+    public javax.swing.JTextField getSignUpNIM() {
+        return SignUpNIM;
+    }
+
+    public javax.swing.JTextField getSignUpNIP() {
+        return SignUpNIP;
+    }
+
+    public javax.swing.JTextField getSignUpNama() {
+        return SignUpNama;
+    }
+
+    public javax.swing.JTextField getSignUpNamaMahasiswa() {
+        return SignUpNamaMahasiswa;
+    }
+
+    public javax.swing.JPasswordField getSignUpPassword() {
+        return SignUpPassword;
+    }
+
+    public javax.swing.JPasswordField getSignUpPasswordMahasiswa() {
+        return SignUpPasswordMahasiswa;
+    }
+
+    public javax.swing.JTextField getSignUpUmur() {
+        return SignUpUmur;
+    }
+
+    public javax.swing.JTextField getSignUpUmurMahasiswa() {
+        return SignUpUmurMahasiswa;
+    }
+
+    public javax.swing.JTextField getSignUpUsername() {
+        return SignUpUsername;
+    }
+
+    public javax.swing.JTextField getSignUpUsernameMahasiswa() {
+        return SignUpUsernameMahasiswa;
+    }
+
+    public javax.swing.JButton getAddKelas() {
+        return addKelas;
+    }
+
+    public javax.swing.JButton getAddMahasiswa() {
+        return addMahasiswa;
+    }
+
+    public javax.swing.JButton getAddTugas() {
+        return addTugas;
+    }
+
+    public javax.swing.JButton getAddTugasCancel() {
+        return addTugasCancel;
+    }
+
+    public javax.swing.JButton getDeleteMahasiswa() {
+        return deleteMahasiswa;
+    }
 }
